@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module referenceFile="DFRobot_Capacitive_Soil_Moisture_Sensor_7146bdbd2b931655f303cfb38c782794_8.fzp" fritzingVersion="0.9.3b" moduleId="DFRobot_Capacitive_Soil_Moisture_Sensor_7146bdbd2b931655f303cfb38c782794_8">
+ <version>1</version>
+ <date>So Jun 11 2017</date>
+ <author>Transporter</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Arial,sans-serif'; font-size:12pt; font-weight:600;">DFRobot Capacitive Soil Moisture Sensor V1.0&lt;/span> &lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Arial,sans-serif'; font-size:10pt;">This product measures soil moisture levels by capacitive sensing, rather than resistive sensing like other types of moisture sensor. It is made of a corrosion resistant material giving it a long service life. Insert it into soil and impress your friends with the real-time soil moisture data!&lt;/span> &lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Arial,sans-serif'; font-size:10pt;">The product includes an on-board voltage regulator which gives it an operating voltage range of 3.3 ~ 5.5V. It is compatible with low-voltage MCUs (both 3.3V and 5V logic). To make it compatible with a Raspberry Pi, an ADC converter is required.&lt;/span> &lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Arial,sans-serif'; font-size:10pt;">Website: &lt;/span>&lt;a href="https://www.dfrobot.com/product-1385.html">&lt;span style=" font-family:'Arial,sans-serif'; font-size:10pt; text-decoration: underline; color:#0000ff;">https://www.dfrobot.com/product-1385.html&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html></description>
+ <title>DFRobot Capacitive Soil Moisture Sensor V1.0</title>
+ <url>https://github.com/OgreTransporter/fritzing-parts-extra</url>
+ <tags>
+  <tag>moisture</tag>
+  <tag>ADC</tag>
+  <tag>water</tag>
+  <tag>soil</tag>
+ </tags>
+ <properties>
+  <property name="family">sensor</property>
+  <property name="variant">variant 1</property>
+  <property name="part number">SEN0193</property>
+  <property name="pins">3</property>
+  <property name="layer"></property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/DFRobot_Capacitive_Soil_Moisture_Sensor_90d332415618213160f6638f225a6003_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/DFRobot_Capacitive_Soil_Moisture_Sensor_90d332415618213160f6638f225a6003_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/DFRobot_Capacitive_Soil_Moisture_Sensor_90d332415618213160f6638f225a6003_1_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/DFRobot_Capacitive_Soil_Moisture_Sensor_90d332415618213160f6638f225a6003_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector id="connector8" type="male" name="A">
+   <description>A</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector8pin" terminalId="connector8terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector8terminal" svgId="connector8pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector8pad"/>
+     <p layer="copper1" svgId="connector8pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector9" type="male" name="VCC">
+   <description>VCC (3.3 V ~ 5.0 V)</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector9pin" terminalId="connector9terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector9terminal" svgId="connector9pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector9pad"/>
+     <p layer="copper1" svgId="connector9pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector10" type="male" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector10pin" terminalId="connector10terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector10terminal" svgId="connector10pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector10pad"/>
+     <p layer="copper1" svgId="connector10pad"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses/>
+ <label>Capacitive Soil Moisture Sensor</label>
+</module>

@@ -1,0 +1,31 @@
+esphome:
+  name: cryingplants
+
+esp32:
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  framework:
+    type: esp-idf
+
+logger:
+
+api:
+
+ota:
+  - platform: esphome
+
+network:
+  enable_ipv6: true
+
+openthread:
+  tlv: "0e080000698739760000000300001935060004001fffc00208e4d5b3efc16e45f20708fdc2466196340000051030d32353f3728c8374f50a5d3b171e6803104d79486f6d653134363239303139353301026dd904103e06fc19046993d510a81f196e876ac80c0402a0f7f8"
+
+output:
+  - platform: gpio
+    pin: GPIO15
+    id: onboard_led
+
+light:
+  - platform: binary
+    name: "FireBeetle Thread LED"
+    output: onboard_led

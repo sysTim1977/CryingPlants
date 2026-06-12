@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.6.2025-10-07.CD-2239-0-04e5bb02" icon="Search.png" search="mosfet">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="prefix0000_396a7ba18136b97f3d290bc231d6b98b_1" modelIndex="85537526" path="/Users/systim/Documents/Fritzing/parts/user/prefix0000_396a7ba18136b97f3d290bc231d6b98b_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-SOT323" modelIndex="85537527" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-sot323.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-SMD" modelIndex="85537528" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-smd.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-FDD8580" modelIndex="85537530" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-fdd8580.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-SOIC8-" modelIndex="85537532" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-soic8-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-PTH2" modelIndex="85537534" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-pth2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="034578dd-8cbd-41f9-a9c1-5aee236347ce-DPak" modelIndex="85537535" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/SMD_N-FET_DPak.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="1001ABDC27" modelIndex="85537536" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/basic_fet_p.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="2c9e5d66-f353-4a21-8f61-adcea17c88ca" modelIndex="85537537" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/SMD_P-FET.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-NCHANNEL-PTH" modelIndex="85537538" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-nchannel-pth.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-PCHANNEL-SMD" modelIndex="85537539" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-pchannel-smd.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="034578dd-8cbd-41f9-a9c1-5aee236347ce" modelIndex="85537541" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/SMD_N-FET.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="2c9e5d66-f353-4a21-8f61-adcea17c88ca-DPak" modelIndex="85537542" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/SMD_P-FET_DPak.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Adafruit-_56bf31067712565daff0ece8e9a2c684_1_7F" modelIndex="85537543" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/contrib/Adafruit-_56bf31067712565daff0ece8e9a2c684_1_7F.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="MonsterMoto-Shield-v12" modelIndex="85537544" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/MonsterMoto-Shield-v12.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="1001ABDC04" modelIndex="85537545" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/basic_fet_n.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PowerDriver-Shield-v13" modelIndex="85537546" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/PowerDriver-Shield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="IRF520_mos_module_7115327c8b8b62b1ba195a98bd66e077_5" modelIndex="85537547" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/IFR520_MOS_module.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-MOSFET-PCHANNEL-SOIC8-SOIC8" modelIndex="85537548" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-mosfet-pchannel-soic8-soic8.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DiscreteSemi-NDS8434-" modelIndex="85537550" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/sparkfun-discretesemi-nds8434-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+    </instances>
+</module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24px" height="37px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="23.227" height="36.875" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="0" width="23.227" height="36.875"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="Main">
+            <path d="M15.892,9.477L15.892,27.477" style="fill:none;stroke:#000;stroke-width:2.5px;"/>
+            <path d="M14.85,24.339L23.207,24.339" style="fill:none;stroke:#000;stroke-width:0.87px;"/>
+            <path d="M14.85,12.656L23.207,12.656" style="fill:none;stroke:#000;stroke-width:0.87px;"/>
+            <path class='pin' id="connector2pin" connectorname='drain' d="M22.77,9.039L22.77,0.039" style="fill:none;stroke:#787878;stroke-width:0.87px;"/>
+            <rect class='terminal' id="connector2terminal" x="22.761" y="0.44" width="0.001" height="0.001" style="fill:none;"/>
+            <path class='pin' id="connector0pin" connectorname='source' d="M22.77,27.956L22.77,36.956" style="fill:none;stroke:#787878;stroke-width:0.87px;"/>
+            <rect class='terminal' id="connector0terminal" x="22.761" y="36.408" width="0.001" height="0.001" style="fill:none;"/>
+            <path d="M22.77,9.039L22.77,12.386" style="fill:none;stroke:#000;stroke-width:0.87px;"/>
+            <path d="M22.77,24.609L22.77,27.956" style="fill:none;stroke:#000;stroke-width:0.87px;"/>
+        </g>
+        <g id="Channel">
+            <path class='pin' id="connector1pin" connectorname='gate' d="M0,18.437L9,18.437" style="fill:none;stroke:#787878;stroke-width:0.87px;"/>
+            <rect class='terminal' id="connector1terminal" x="0.36" y="18.45" width="0.001" height="0.001" style="fill:none;"/>
+            <path d="M7.798,18.437L15.977,18.437" style="fill:none;stroke:#000;stroke-width:0.87px;"/>
+            <path id="P" d="M9.058,18.437L12.572,20.651L12.572,16.224L9.058,18.437Z"/>
+        </g>
+        <g id="Pin-Labels--DGS-" serif:id="Pin Labels (DGS)">
+            <text x="19.945px" y="6.187px" style="font-family:'DroidSans', 'Droid Sans', sans-serif;font-size:3.125px;fill:#8c8c8c;">1</text>
+            <text x="19.846px" y="32.929px" style="font-family:'DroidSans', 'Droid Sans', sans-serif;font-size:3.125px;fill:#8c8c8c;">3</text>
+            <text x="2.918px" y="17.159px" style="font-family:'DroidSans', 'Droid Sans', sans-serif;font-size:3.125px;fill:#8c8c8c;">2</text>
+        </g>
+    </g>
+</svg>

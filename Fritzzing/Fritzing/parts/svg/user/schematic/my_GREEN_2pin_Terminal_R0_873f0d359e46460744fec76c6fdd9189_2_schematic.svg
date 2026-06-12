@@ -1,0 +1,121 @@
+<?xml version='1.0' standalone='no'?>
+<!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.6 49.8" style="isolation:isolate" width="38.6" height="49.8" >
+    <desc >
+        <referenceFile >SCHEMATIC.svg</referenceFile>
+    </desc>
+    <g style="isolation:isolate" gorn="0.1" id="Layer1" >
+        <g style="isolation:isolate" gorn="0.1.0" id="schematic" >
+            <g transform="matrix(0,-1,1,0,-30.55,51.239)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <rect width="10.687" gorn="0.1.0.0.0.0.0.0.0" id="connector0pin" height="0.992" x="5.001" y="40.398"  fill="rgb(93,93,93)"/>
+                                <rect stroke-width="0" stroke="none" width="0.021374" gorn="0.1.0.0.0.0.0.0.1" id="connector0terminal" height="0.001984" x="10.3338" y="41.389"  fill="none"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(0,1,-1,0,68.473,12.352)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <rect width="11.651" gorn="0.1.0.1.0.0.0.0.0" id="connector1pin" height="0.992" x="22.235" y="39.916"  fill="rgb(93,93,93)"/>
+                                <rect stroke-width="0" stroke="none" width="0.023302" gorn="0.1.0.1.0.0.0.0.1" id="connector1terminal" height="0.001984" x="28.0488" y="40.907"  fill="none"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path stroke-width="1.9" stroke="rgb(0,0,0)" stroke-miterlimit="3" d="M 28.061 26.246 L 28.061 31.043 L 28.061 36.551" stroke-linecap="butt" stroke-opacity="100"  fill="rgb(0,0,0)" stroke-linejoin="miter"/>
+            <line x1="10.344" x2="10.344" stroke-width="1.9" stroke="rgb(0,0,0)" stroke-miterlimit="3" stroke-linecap="butt" stroke-opacity="100"  y1="26.176" y2="36.551" stroke-linejoin="miter"/>
+        </g>
+        <g style="isolation:isolate" gorn="0.1.1" id="silkscreen" >
+            <g transform="matrix(1,0,0,1,14.373,0)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g >
+                                    <g transform="matrix(1,0,0,1,0,4.641)" >
+                                        <g >
+                                            <g >
+                                                <g >
+                                                    <g >
+                                                        <text style="font-family:Droid Sans;font-weight:400;font-style:normal;" font-size="5" stroke="none" gorn="0.1.1.0.0.0.0.0.0.0.0.0.0.0.0" id="Text"  fill="#000000">TRM</text>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <line x1="0.85" x2="37.6" stroke-width="1" stroke="rgb(0,0,0)" stroke-miterlimit="3" stroke-linecap="square" gorn="0.1.1.1" id="Path"  y1="18.702" y2="18.702" stroke-linejoin="miter"/>
+            <line x1="0.85" x2="37.805" stroke-width="1" stroke="rgb(0,0,0)" stroke-miterlimit="3" stroke-linecap="square" gorn="0.1.1.2" id="Path"  y1="34.265" y2="34.14" stroke-linejoin="miter"/>
+            <g transform="matrix(1,0,0,1,12.6,42.675)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g >
+                                    <g transform="matrix(1,0,0,1,0.404,4.641)" >
+                                        <g >
+                                            <g >
+                                                <g >
+                                                    <g >
+                                                        <text style="font-family:Droid Sans;font-weight:400;font-style:normal;" font-size="5" stroke="none" gorn="0.1.1.3.0.0.0.0.0.0.0.0.0.0.0" id="Text"  fill="#000000">1</text>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,31.412,41.925)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <g >
+                                    <g transform="matrix(1,0,0,1,1.217,4.641)" >
+                                        <g >
+                                            <g >
+                                                <g >
+                                                    <g >
+                                                        <text style="font-family:Droid Sans;font-weight:400;font-style:normal;" font-size="5" stroke="none" gorn="0.1.1.4.0.0.0.0.0.0.0.0.0.0.0" id="Text"  fill="#000000">2</text>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,0,0)" >
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <rect stroke-width="1.2" stroke="rgb(0,0,0)" stroke-miterlimit="2" width="37.205" stroke-linecap="butt" gorn="0.1.1.5.0.0.0.0.0" id="Rectangle" height="26.575" x="0.6" y="13.164"  fill="none" stroke-linejoin="miter"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

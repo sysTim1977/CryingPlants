@@ -1,0 +1,128 @@
+esphome:
+  name: cryingplants
+
+esp32:
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  framework:
+    type: esp-idf
+
+logger:
+
+api:
+
+ota:
+  - platform: esphome
+
+network:
+  enable_ipv6: true
+
+openthread:
+  tlv: "0e080000698739760000000300001935060004001fffc00208e4d5b3efc16e45f20708fdc2466196340000051030d32353f3728c8374f50a5d3b171e6803104d79486f6d653134363239303139353301026dd904103e06fc19046993d510a81f196e876ac80c0402a0f7f8"
+
+output:
+  - platform: gpio
+    pin: GPIO15
+    id: onboard_led
+
+  - platform: gpio
+    pin:
+      number: GPIO8
+      inverted: true
+    id: sensor_power_gpio
+
+light:
+  - platform: binary
+    name: "FireBeetle Thread LED"
+    output: onboard_led
+
+switch:
+  - platform: output
+    name: "CryingPlants Sensor Power GPIO8"
+    output: sensor_power_gpio
+    id: sensor_power
+
+button:
+  - platform: template
+    name: "CryingPlants Measure Now"
+    id: measure_now
+    on_press:
+      - switch.turn_on: sensor_power
+      - delay: 2s
+      - component.update: soil_sensor_1_raw
+      - component.update: soil_sensor_2_raw
+      - component.update: soil_sensor_3_raw
+      - component.update: soil_sensor_4_raw
+      - delay: 1s
+      - switch.turn_off: sensor_power
+
+sensor:
+  - platform: adc
+    pin: GPIO0
+    name: "CryingPlants Battery Voltage"
+    id: battery_voltage
+    attenuation: 12db
+    update_interval: 30s
+    unit_of_measurement: "V"
+    accuracy_decimals: 2
+    device_class: voltage
+    state_class: measurement
+    filters:
+      - multiply: 2.0
+
+  - platform: template
+    name: "CryingPlants Battery Level"
+    id: battery_level
+    unit_of_measurement: "%"
+    device_class: battery
+    state_class: measurement
+    accuracy_decimals: 0
+    lambda: |-
+      float v = id(battery_voltage).state;
+
+      if (isnan(v))
+        return NAN;
+
+      float pct = (v - 3.30) / (4.20 - 3.30) * 100.0;
+
+      if (pct > 100.0) pct = 100.0;
+      if (pct < 0.0) pct = 0.0;
+
+      return pct;
+
+  - platform: adc
+    pin: GPIO2
+    name: "CryingPlants Soil Sensor 1 Raw"
+    id: soil_sensor_1_raw
+    attenuation: 12db
+    update_interval: never
+    unit_of_measurement: "V"
+    accuracy_decimals: 3
+
+  - platform: adc
+    pin: GPIO3
+    name: "CryingPlants Soil Sensor 2 Raw"
+    id: soil_sensor_2_raw
+    attenuation: 12db
+    update_interval: never
+    unit_of_measurement: "V"
+    accuracy_decimals: 3
+
+  - platform: adc
+    pin: GPIO4
+    name: "CryingPlants Soil Sensor 3 Raw"
+    id: soil_sensor_3_raw
+    attenuation: 12db
+    update_interval: never
+    unit_of_measurement: "V"
+    accuracy_decimals: 3
+
+  - platform: adc
+    pin: GPIO5
+    name: "CryingPlants Soil Sensor 4 Raw"
+    id: soil_sensor_4_raw
+    attenuation: 12db
+    update_interval: never
+    unit_of_measurement: "V"
+    accuracy_decimals: 3
+

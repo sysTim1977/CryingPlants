@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# ESPHome
+.esphome/
+secrets.yaml
+
+# ESP-IDF / PlatformIO / build artifacts
+build/
+.pioenvs/
+.pio/
+sdkconfig.old
+
+# Python / virtual environments
+envs/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated / temporary files
+*.log
+*.tmp

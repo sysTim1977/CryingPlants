@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.6.2025-10-07.CD-2239-0-04e5bb02" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="FireBeetle-ESP32-E-tht_1" modelIndex="85521324" path="/Users/systim/Documents/Fritzing/parts/user/FireBeetle-ESP32-E-tht_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="adafruit_54b7c7a1cacd597f30ab648b8b355876_1" modelIndex="85521325" path="/Users/systim/Documents/Fritzing/parts/user/adafruit_54b7c7a1cacd597f30ab648b8b355876_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="my_GREEN_2pin_Terminal_R0_d8c521178d637ba82ea1bb2dae99d28e_4" modelIndex="85521326" path="/Users/systim/Documents/Fritzing/parts/user/my_GREEN_2pin_Terminal_R0_d8c521178d637ba82ea1bb2dae99d28e_4.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="screw_terminal_3_3.5mm_hs_1.5mm_0.508mm" modelIndex="85521327" path="/Users/systim/Library/Application Support/Fritzing/Fritzing/partfactory/be84417eeb245db09e6b802148aec065/core/screw_terminal_3_3.5mm_hs_1.5mm_0.508mm.fzp">
+            <property name="hole size" value="1.5mm,0.508mm"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="screw_terminal_2_200mil_hs_1.5mm_0.508mm" modelIndex="85521328" path="/Users/systim/Library/Application Support/Fritzing/Fritzing/partfactory/be84417eeb245db09e6b802148aec065/core/screw_terminal_2_200mil_hs_1.5mm_0.508mm.fzp">
+            <property name="hole size" value="1.5mm,0.508mm"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="screw_terminal_4_300mil_hs_1.1mm_0.508mm" modelIndex="85521329" path="/Users/systim/Library/Application Support/Fritzing/Fritzing/partfactory/be84417eeb245db09e6b802148aec065/core/screw_terminal_4_300mil_hs_1.1mm_0.508mm.fzp">
+            <property name="hole size" value="1.1mm,0.508mm"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="DFRobot_Capacitive_Soil_Moisture_Sensor_7146bdbd2b931655f303cfb38c782794_8" modelIndex="5797" path="/Users/systim/Documents/Fritzing/parts/user/DFRobot_Capacitive_Soil_Moisture_Sensor_7146bdbd2b931655f303cfb38c782794_8.fzp">
+            <property name="part number" value="SEN0193"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_8dc61650ae2fa5c430e32ca65d474a4f_1" modelIndex="85523385" path="/Users/systim/Documents/Fritzing/parts/user/prefix0000_8dc61650ae2fa5c430e32ca65d474a4f_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="24bbbee0923911ea8b5a784f4351b522" modelIndex="85523395" path="/Users/systim/Documents/Fritzing/parts/user/JFET_P_DGS_NTE489.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="7feb6ad6921111ea8012784f4351b522" modelIndex="85523397" path="/Users/systim/Documents/Fritzing/parts/user/JFET_N_GSD_BF245.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="dfr1075-tht_1" modelIndex="85523487" path="/Users/systim/Documents/Fritzing/parts/user/dfr1075-tht_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="18650 holder2_bd685510f0e7ce7b408eb96ca2c1d9f0_3" modelIndex="85523499" path="/Users/systim/Documents/Fritzing/parts/user/18650 holder2_bd685510f0e7ce7b408eb96ca2c1d9f0_3.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

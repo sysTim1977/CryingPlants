@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns="http://www.w3.org/2000/svg" gorn="0" viewBox="0 0 10.415701 8.0321886" height="0.31622791in" version="1.2" width="0.41006848in" y="0in"  x="0in" id="svg23">
+    <metadata  id="metadata29">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work rdf:about="" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs  id="defs27"/>
+    <desc  id="desc2">
+        <referenceFile >prefix0000_8dc61650ae2fa5c430e32ca65d474a4f_1_schematic.svg</referenceFile>
+    </desc>
+    <g  transform="translate(0.00173942,0.00289407)">
+        <g >
+            <g gorn="0.3.0.0"  id="schematic">
+                <line stroke="#000000" gorn="0.3.0.0.0" stroke-linecap="round" y1="0.2032" x1="3.93347" x2="3.93347" class="other"  stroke-width="0.4064" y2="7.8232002" id="line4"/>
+                <line stroke="#000000" gorn="0.3.0.0.1" stroke-linecap="round" y1="2.7432001" x1="5.2034702" x2="5.2034702" class="other"  stroke-width="0.4064" y2="5.2831998" id="line6"/>
+                <line stroke="#000000" gorn="0.3.0.0.2" stroke-linecap="round" y1="0.2032" x1="6.4734702" x2="6.4734702" class="other"  stroke-width="0.4064" y2="7.8232002" id="line8"/>
+                <line stroke="#000000" gorn="0.3.0.0.3" stroke-linecap="round" y1="2.7432001" x1="7.7434702" x2="7.7434702" class="other"  stroke-width="0.4064" y2="5.2831998" id="line10"/>
+                <line stroke="#000000" gorn="0.3.0.0.4" stroke-linecap="round" y1="4.0131998" x1="2.66347" x2="3.6794701" class="other"  stroke-width="0.1524" y2="4.0131998" id="line12"/>
+                <line gorn="0.3.0.0.5" stroke="#787878" stroke-linecap="round" connectorname="-" y1="4.0131998" x1="10.2835" x2="7.7434702" class="pin"  stroke-width="0.246944" y2="4.0131998" id="connector1pin"/>
+                <rect gorn="0.3.0.0.6" stroke="none" height="0.25399998" width="0.25399998" y="3.8862002" class="terminal"  x="10.15998" stroke-width="0" fill="none" id="connector1terminal"/>
+                <text stroke="none" gorn="0.3.0.0.7" font-size="0.881944" font-family="'Droid Sans'" y="3.6427801" class="text"  x="9.0134697" stroke-width="0" fill="#8c8c8c" id="text16" text-anchor="middle">2</text>
+                <line gorn="0.3.0.0.8" stroke="#787878" stroke-linecap="round" connectorname="+" y1="4.0131998" x1="0.123472" x2="2.66347" class="pin"  stroke-width="0.246944" y2="4.0131998" id="connector0pin"/>
+                <rect gorn="0.3.0.0.9" stroke="none" height="0.25399998" width="0.25399998" y="3.8862002" class="terminal"  x="-1.9127676e-005" stroke-width="0" fill="none" id="connector0terminal"/>
+                <text stroke="none" gorn="0.3.0.0.10" font-size="0.881944" font-family="'Droid Sans'" y="3.6427801" class="text"  x="1.39347" stroke-width="0" fill="#8c8c8c" id="text20" text-anchor="middle">1</text>
+            </g>
+        </g>
+    </g>
+</svg>
